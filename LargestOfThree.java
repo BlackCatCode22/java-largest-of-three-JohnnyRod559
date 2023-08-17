@@ -51,6 +51,8 @@ public class LargestOfThree {
         num3 = scanner.nextInt();
         System.out.println(" You entered: " + num3);
 
+        System.out.println("\n\n You entered: " + num1 + " and " + num2 + " and " + num3);
+
         // Decision statements to find largest
         if (num1 > num2 & num1 > num3) {
             largest = num1;
@@ -62,7 +64,7 @@ public class LargestOfThree {
             largest = num3;
         }
         // Output the largest number
-        System.out.println("\n\n The largest number is: " + largest);
+       System.out.println("\n\n The largest number of " + num1 + " and " + num2 + " and " + num3 + " is " + largest);
 
 
         System.out.println("\n\n The sum of the integers combined is: " + total );
